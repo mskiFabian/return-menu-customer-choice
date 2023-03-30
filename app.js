@@ -1,4 +1,3 @@
-
 const restaurant = {
     name: 'Classico Italiano',
     location: 'Via Angelo Tavanti 23, Firenze, Italy',
@@ -12,3 +11,7 @@ const restaurant = {
 }
 
 console.log(restaurant.order(2, 0))
+
+const [starter, main] = restaurant.order(2, 0)
+console.log(starter, main)
+
